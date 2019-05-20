@@ -27,7 +27,6 @@ public class Book {
 	private String previewLink;
 	private double averageRating;
 	private ArrayList<String> authors = new ArrayList<String>();
-	private ArrayList<String> categories = new ArrayList<String>();
-	
+	private ArrayList<String> categories = new ArrayList<String>();	
 	
 }
