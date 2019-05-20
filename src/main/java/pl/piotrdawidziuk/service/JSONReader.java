@@ -21,6 +21,11 @@ public class JSONReader {
         
         // https://stackoverflow.com/questions/10926353/how-to-read-json-file-into-java-with-simple-json-library
     	
+        
+        // https://www.baeldung.com/jackson-object-mapper-tutorial
+        
+        //  https://www.mkyong.com/java/how-to-convert-java-object-to-from-json-jackson/
+        
     	try {
 			JSONArray a = (JSONArray) parser.parse(new FileReader("books.json"));
 			 for (Object o : a)
